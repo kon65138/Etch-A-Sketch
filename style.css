@@ -5,8 +5,18 @@
     margin: 0;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .container {
+    border: red 50px solid;
+    border-radius: 50px;
+    height: 60%;
+    width: 60%;
     display: flex;
     flex-wrap: wrap;
 }
