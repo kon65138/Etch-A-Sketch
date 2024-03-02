@@ -21,7 +21,7 @@ function chooseGridSize () {
             grid.style.backgroundColor = '#' + randomColor;
             setTimeout( () => {
                 grid.style.backgroundColor = 'transparent';
-            }, 300)
+            }, 3000)
         }
         grid.addEventListener("mouseenter", colorize);
     }
@@ -39,7 +39,7 @@ for (let grid of grids) {
         grid.style.backgroundColor = '#' + randomColor;
         setTimeout( () => {
             grid.style.backgroundColor = 'transparent';
-        }, 500)
+        }, 3000)
     }
     grid.addEventListener("mouseenter", colorize);
 }

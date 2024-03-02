@@ -14,7 +14,7 @@ body {
 
 .btncontainer {
     height: 5%;
-    width: 5%;
+    width: 10%;
 }
 
 
@@ -22,8 +22,8 @@ body {
     margin-top: 50px;
     border: red 50px solid;
     border-radius: 50px;
-    height: 60%;
-    width: 60%;
+    height: 960px;
+    width: 960px;
     display: flex;
     flex-wrap: wrap;
 }
