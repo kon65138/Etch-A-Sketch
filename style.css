@@ -9,10 +9,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.btncontainer {
+    height: 5%;
+    width: 5%;
 }
 
 
 .container {
+    margin-top: 50px;
     border: red 50px solid;
     border-radius: 50px;
     height: 60%;
@@ -22,8 +29,6 @@ body {
 }
 
 .container > div {
-    width: 6.25%;
-    height: 6.25%;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.151);
     flex: auto;
 }
