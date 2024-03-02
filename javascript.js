@@ -17,7 +17,8 @@ function chooseGridSize () {
     }
     for (let grid of grids) {
         function colorize () {
-            grid.style.backgroundColor = 'black';
+            let randomColor = Math.floor(Math.random()*16777215).toString(16);
+            grid.style.backgroundColor = '#' + randomColor;
             setTimeout( () => {
                 grid.style.backgroundColor = 'transparent';
             }, 300)
@@ -34,7 +35,8 @@ for (let i = 0; i < gridno; i++)  {
 
 for (let grid of grids) {
     function colorize () {
-        grid.style.backgroundColor = 'black';
+        let randomColor = Math.floor(Math.random()*16777215).toString(16);
+        grid.style.backgroundColor = '#' + randomColor;
         setTimeout( () => {
             grid.style.backgroundColor = 'transparent';
         }, 500)
