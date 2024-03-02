@@ -19,9 +19,6 @@ function chooseGridSize () {
         function colorize () {
             let randomColor = Math.floor(Math.random()*16777215).toString(16);
             grid.style.backgroundColor = '#' + randomColor;
-            setTimeout( () => {
-                grid.style.backgroundColor = 'transparent';
-            }, 3000)
         }
         grid.addEventListener("mouseenter", colorize);
     }
@@ -37,9 +34,6 @@ for (let grid of grids) {
     function colorize () {
         let randomColor = Math.floor(Math.random()*16777215).toString(16);
         grid.style.backgroundColor = '#' + randomColor;
-        setTimeout( () => {
-            grid.style.backgroundColor = 'transparent';
-        }, 3000)
     }
     grid.addEventListener("mouseenter", colorize);
 }
